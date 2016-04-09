@@ -1,6 +1,6 @@
 {
   "name": "unix-access",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Wrapper for access() UNIX C function",
   "main": "./index.js",
   "scripts": {
@@ -25,15 +25,15 @@
     "url": "https://github.com/lobodpav/node-unix-access/issues?state=open"
   },
   "engines": {
-    "node": "~0.12.0"
+    "node": "~5.10.1"
   },
   "readmeFilename": "README.md",
   "license": "MIT",
   "dependencies": {
-    "nan": "~2.0.9"
+    "nan": "~2.2.1"
   },
   "devDependencies": {
-    "mocha": "~2.2.1",
-    "should": "~5.2.0"
+    "mocha": "~2.4.5",
+    "should": "~8.3.0"
   }
 }

@@ -16,7 +16,9 @@ private:
 
 public:
     AccessWorker(char *path, int amode, Callback *callback) : AsyncWorker(callback), path(path), amode(amode) {}
-    ~AccessWorker() {}
+    ~AccessWorker() {
+        free(path);
+    }
 
     // Executed inside the worker-thread
     // It is not safe to access V8, or V8 data structures here, so everything we need for input and output should go on `this`

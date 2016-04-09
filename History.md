@@ -1,3 +1,7 @@
+# 0.3.1 / 2016-04-09
+
+* Fixed memory leak and upgraded to latest package versions
+
 # 0.3.0 / 2015-09-10
 
 * Rewritten the module by using `Nan` module to eliminate incompatibilities with new V8 versions (preparation for Node.js 4.0)

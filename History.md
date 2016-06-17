@@ -1,3 +1,7 @@
+# 0.3.2 / 2016-06-17
+
+* Deprecated the whole module. Since v1.0.0, Node.js embeds implementation of both `fs.access()` and `fs.accessSync()`.
+
 # 0.3.1 / 2016-04-09
 
 * Fixed memory leak and upgraded to latest package versions

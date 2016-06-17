@@ -4,6 +4,14 @@
 
 `OS X` and `Linux` platforms supported.
 
+# ! CAUTION !
+
+This module is now **DEPRECATED**. Since `v1.0.0`, `Node.js` has an out-of-the-box implementation of both
+[fs.access()](https://nodejs.org/api/fs.html#fs_fs_access_path_mode_callback) and
+[fs.accessSync()](https://nodejs.org/api/fs.html#fs_fs_accesssync_path_mode).
+
+Please use these native functions instead of this module.
+
 # Introduction
 
 Ever needed to find out whether your app has specific permissions to a path? Now you can check a path for `read`, `write` and `execute/search` permissions on files and directories.
